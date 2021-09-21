@@ -1,10 +1,14 @@
 h1 {
-    color: black;
+    color: white;
     background-color: rebeccapurple;
     padding: 20px;
+    border: 20px, solid, black;
     text-align: center;
 }
 
+p {
+    font-size: large;
+}
 
 body {
     background-color: plum;
