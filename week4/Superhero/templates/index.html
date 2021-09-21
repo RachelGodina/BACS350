@@ -2,19 +2,20 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<main>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Superhero News</title>
-    <link rel="stylesheet" href="{% static 'super.css' %}" >
+    <link rel="stylesheet" href="{% static 'superhero_theme.css' %}" >
 </head>
 <body>
     <h1>Superhero News</h1>
-    <img src="{% static 'uncoLogo.edu' %}" width = 800 alt="uncoLogo">
-    <a href="/admin/">Django Admin Views</a>
-    <a href="hero/blackWidow">Black Widow Profile</a>
-    <a href="hero/wonderWoman">WonderWoman Profile</a>
-    <a href="hero/gamora">Gamora Profile</a>
+    <img src="/static/images/uncoLogo.png" width = 200 alt="uncoLogo">
+    <p><a href="/admin/">Django Admin Views for Superheros</a>
+    <p><a href="/hero/">List of Heroes</a></p>
+    </p>
 </body>
+</main>
 </html>
