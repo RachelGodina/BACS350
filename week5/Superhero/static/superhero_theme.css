@@ -1,0 +1,17 @@
+h1 {
+    color: white;
+    background-color: rebeccapurple;
+    padding: 20px;
+    border: 20px, solid, black;
+    text-align: center;
+}
+
+p {
+    font-size: large;
+    list-style: none;
+}
+
+body {
+    background-color: plum;
+    text-align: center;
+}
