@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero Detail</title>
+    <link rel="stylesheet" href="{% static 'superhero_cssTheme.css' %}">
+</head>
+
+<body>
+    <h1>Superhero</h1>
+    <h2>{{ superhero.name }}</h2>
+    <p>{{ superhero.identity }}</p>
+    <p>Description: {{ superhero.description }}</p>
+    <p>Strength: {{ superhero.strength }} </p>
+    <p>Weakness: {{ superhero.weakness }}</p>
+    <p>
+        <a href="{{ superhero.image }}">
+            <img src="{{ superhero.image }}" alt="{{ superhero.name }}" width="500">
+        </a>
+    </p>
+    <p>
+        <button>
+            <a href="/superhero/<int:pk>/edit">Edit this Page</a>
+        </button>
+        <button>
+            <a href="/superhero/">Show all Heroes</a>
+        </button>
+    </p>
+</body>
+
+</html>

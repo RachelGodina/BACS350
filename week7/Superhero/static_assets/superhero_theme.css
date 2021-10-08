@@ -1,0 +1,25 @@
+h1 {
+    color: white;
+    background-color: rebeccapurple;
+    padding: 20px;
+    border: 20px, solid, black;
+    text-align: center;
+}
+
+p {
+    font-size: large;
+    text-align:center;
+    width: 100%;
+}
+
+body {
+    background-color: plum;
+    text-align: center;
+}
+
+table, td, th {
+    width:100%; 
+    border-color: rgba(0,0,0,0.6);
+    border-style: solid;
+    text-align: center;
+}
