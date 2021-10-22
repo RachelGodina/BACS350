@@ -34,3 +34,7 @@ class SuperheroDeleteView(DeleteView):
     model = Superhero
     template_name = 'superhero_delete.html'
     success_url = reverse_lazy('templates/superhero_list')
+
+class SigninView(TemplateView):
+    model = Superhero
+    template_name = 'signup.html'
