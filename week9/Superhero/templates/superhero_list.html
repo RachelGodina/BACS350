@@ -29,12 +29,12 @@
             {% for hero in object_list %}
             </h2>
             <tbody>
-                <td> {{ hero.name }}</td>
-                <td> {{ hero.identity }}</td>
+                <td> {{ superhero.name }}</td>
+                <td> {{ superhero.identity }}</td>
                 <td> <img src="{{ superhero.image }}" alt="{{ superhero.name }}" width=200></td>
-                <td> {{ hero.description }}</td>
-                <td> {{ hero.strength }}</td>
-                <td> {{ hero.weakness }}</td>
+                <td> {{ superhero.description }}</td>
+                <td> {{ superhero.strength }}</td>
+                <td> {{ superhero.weakness }}</td>
                 <td><a href=" {{ superhero.pk }}" class="btn btn-primary m-2">Detail</a>
                     <a href="/superhero/{{ superhero.pk}}/" class="btn btn-info m-2">Edit</a>
                     <a href="/superhero/{{ superhero.pk}}/delete" class="btn btn-danger m-2">Delete</a>
