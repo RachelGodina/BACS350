@@ -13,10 +13,10 @@
     {% block content %}
     <h1>Superhero Gallery</h1>
     <div>
-        <table>
+        <table style= "table-layout:fixed">
             <thead>
                 <tr>
-                    <th scope="col" style="width: 20%">Name</th>
+                    <th scope="col">Name</th>
                     <th scope="col">Identity</th>
                     <th scope="col">Image</th>
                     <th scope="col">Description</th>
@@ -30,7 +30,7 @@
             <tbody>
                 <td> {{ superhero.name }}</td>
                 <td> {{ superhero.identity }}</td>
-                <td> <img src="{{ superhero.image }}" alt="{{ superhero.name }}" width=300></td>
+                <td> <img src="{{ superhero.image }}" alt="{{ superhero.name }}" width=180></td>
                 <td> {{ superhero.description }}</td>
                 <td> {{ superhero.strength }}</td>
                 <td> {{ superhero.weakness }}</td>

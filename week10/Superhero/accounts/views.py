@@ -9,7 +9,7 @@ from django.contrib.auth.forms import UserCreationForm
 class SignUpView(CreateView):
     form_class = UserCreationForm
     success_url = reverse_lazy('login')
-    template_name = 'registration/signup.html'
+    template_name = 'signup.html'
 
 class AccountView(LoginRequiredMixin, RedirectView):
     url = '/accounts/'

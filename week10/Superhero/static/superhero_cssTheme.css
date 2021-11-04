@@ -23,6 +23,7 @@ table, td, th {
     border-color: rgba(0,0,0,0.6);
     border-style: solid;
     text-align: center;
+    table-layout: auto;
 }
 
 button {
