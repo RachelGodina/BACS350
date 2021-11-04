@@ -26,7 +26,7 @@ class Superhero (models.Model):
     def get_absolute_url(self):
         return reverse_lazy('superhero_list')
 
-class Article(models.Model):
+class Article (models.Model):
     hero = models.CharField(max_length=20, default='none')
     order = models.IntegerField() 
     title = models.CharField(max_length=200)
